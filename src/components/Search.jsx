@@ -1,11 +1,10 @@
 import React from 'react';
-import {useSearchParams,useLocation} from 'react-router-dom'
+import {useSearchParams} from 'react-router-dom'
 
 function Search(){
 
     let [searchParams, setSearchParams] = useSearchParams();
-    let test = useLocation;
-    console.log(test);
+ 
     return(
         <div>
             <h1>Search Example</h1><br />
