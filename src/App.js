@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Function from './components/function';
+import Function from './components/Routes';
 import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {
